@@ -9,8 +9,8 @@ export default function ProjectsPage() {
       <FadeIn>
         <SectionHeading
           eyebrow="Projects"
-          title="A growing collection of frontend and product work framed like showcase pieces."
-          description="These projects are where I test visual direction, UI detail, and the balance between a strong concept and a usable experience."
+          title="A Closer Look at My Projects"
+          description="From full-stack applications to lower-level server work, these projects show the range of what I’ve built so far and how my interests are evolving toward backend, embedded systems, and technical engineering."
           theme="dark"
         />
       </FadeIn>

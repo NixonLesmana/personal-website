@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -16,9 +17,16 @@ export function Navbar() {
     <header className="sticky top-0 z-50 px-4 pt-4 sm:px-6">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between rounded-full border border-white/10 bg-[rgba(9,13,24,0.7)] px-4 py-3 shadow-[0_18px_60px_rgba(0,0,0,0.35)] backdrop-blur-2xl sm:px-6">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-[#141b2e] text-sm font-semibold text-white">
-            N
-          </span>
+          <div className="relative h-11 w-11 overflow-hidden rounded-full border border-white/10 bg-[#141b2e]">
+            <Image
+              src="/profile.jpg"
+              alt="Nixon Lesmana"
+              width={52}
+              height={52}
+              className="object-cover object-center"
+              sizes="52px"
+            />
+          </div>
           <span>
             <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-[#73819f]">Personal Website</span>
             <span className="block font-display text-2xl leading-none text-[#f4f7ff]">Nixon Lesmana</span>

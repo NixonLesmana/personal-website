@@ -4,7 +4,6 @@ import { ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 import { FadeIn } from "@/components/motion/fade-in";
 import { ProjectCard } from "@/components/site/project-card";
 import { SectionHeading } from "@/components/site/section-heading";
-import { SocialLinks } from "@/components/site/social-links";
 import { heroNotes, heroStats, homeCta, profile, projects, skillGroups } from "@/content/site";
 
 export default function HomePage() {
@@ -136,7 +135,7 @@ export default function HomePage() {
       <section className="page-section pb-20 sm:pb-24">
         <div className="flex items-end justify-between gap-6">
           <SectionHeading
-            eyebrow="Selected Projects"
+            eyebrow="Featured Projects"
             title="Projects That Reflect My Interests"
             description="A selection of projects that reflect the kinds of problems I like working on, from web applications to lower-level systems and more technical software builds"
             theme="dark"
@@ -183,22 +182,6 @@ export default function HomePage() {
               </div>
             </FadeIn>
           ))}
-        </div>
-      </section>
-
-      <section className="page-section pb-24 sm:pb-28">
-        <FadeIn>
-          <SectionHeading
-            eyebrow="Contact"
-            title="Get In Touch"
-            description="Connect with me through any of the links below."
-            theme="dark"
-          />
-        </FadeIn>
-        <div className="mt-10">
-          <FadeIn delay={0.08}>
-            <SocialLinks />
-          </FadeIn>
         </div>
       </section>
     </>

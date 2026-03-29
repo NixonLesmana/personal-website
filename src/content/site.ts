@@ -21,7 +21,6 @@ export const profile = {
   role: "Frontend Developer & UI Builder",
   tagline: "I build software projects and I’m especially interested in backend systems, embedded software, and hardware-oriented engineering.",
   location: "La Jolla, California",
-  availability: "Open to internships, collaborations, and side projects.",
   heroDescription:
     "Most of the projects I’ve built so far are software-based, but I’m working toward backend development, embedded systems, and lower-level engineering areas like digital integrated circuit design.",
   about:
@@ -32,7 +31,6 @@ export const profile = {
 
 export const navigation: NavigationItem[] = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
   { href: "/contact", label: "Contact" },
   { href: "/resume", label: "Resume" },

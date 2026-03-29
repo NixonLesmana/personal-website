@@ -13,14 +13,14 @@ export default function ContactPage() {
         <FadeIn>
           <SectionHeading
             eyebrow="Contact"
-            title="If you&apos;re building something ambitious, I&apos;d love to hear about it."
-            description={`${profile.availability} I’m especially interested in projects where frontend quality, UI detail, and product feel matter.`}
+            title="Let's Connect"
+            description="I’m open to internships, collaborations, and conversations about software, backend systems, embedded engineering, and technical projects."
             theme="dark"
           />
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="mailto:nlesmana@ucsd.edu"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#09111e] transition hover:bg-[#9fb7ff]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#9fb7ff] px-6 py-3 text-sm font-semibold text-[#09111e] transition hover:bg-[#9fb7ff]"
             >
               Email Me
               <ArrowUpRight className="h-4 w-4" />
@@ -29,7 +29,7 @@ export default function ContactPage() {
               href="/resume"
               className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/[0.08]"
             >
-              Open Resume PDF
+              View Resume
             </Link>
           </div>
         </FadeIn>
