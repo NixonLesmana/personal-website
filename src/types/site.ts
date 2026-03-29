@@ -16,9 +16,9 @@ export type Project = {
   slug: string;
   title: string;
   summary: string;
-  impact: string;
   tech: string[];
-  role: string;
+  focus: string;
+  result: string;
   timeline: string;
   links: {
     live?: string;
