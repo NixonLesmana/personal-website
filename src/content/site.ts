@@ -50,7 +50,7 @@ export const socials: SocialLink[] = [
     icon: Github,
   },
   {
-    href: "https://www.linkedin.com/in/nixon-lesmana-38a594299/",
+    href: "https://www.linkedin.com/in/nixon-lesmana/",
     label: "LinkedIn",
     value: "Nixon Lesmana",
     icon: Linkedin,
